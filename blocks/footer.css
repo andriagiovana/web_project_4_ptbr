@@ -1,0 +1,13 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.footer__copyright {
+    color: #545454;
+    font-weight: 400;
+    font-size: 18px;
+}

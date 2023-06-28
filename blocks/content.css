@@ -8,7 +8,7 @@
 }
 
 .content__card {
-    max-width: 282px;
+    width: 100%;
     max-height: 361px;
     background-color: #fff;
     border-radius: 5px;
@@ -21,6 +21,7 @@
     object-fit: cover;
     max-height: 282px;
     margin: 0;
+    border-radius: 5px;
 }
 
 .content__card-description {

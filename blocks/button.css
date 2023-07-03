@@ -1,0 +1,26 @@
+.profile__edit-button {
+    max-width: 24px;
+    max-height: 24px;
+    margin-top: 16px;
+    border: none;
+    background-color: black;
+}
+
+.profile__add-button {
+    max-width: 150px;
+    max-height: 50px;
+    background-color: black;
+    margin: 0;
+    border: none;
+} 
+
+.close {
+    cursor: pointer;
+    float: right;
+  }
+
+  .button__submit {
+    
+  }
+  
+  

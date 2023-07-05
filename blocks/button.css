@@ -1,9 +1,15 @@
+
 .profile__edit-button {
     max-width: 24px;
     max-height: 24px;
     margin-top: 16px;
     border: none;
     background-color: black;
+    padding: 0;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6000000238418579;
 }
 
 .profile__add-button {
@@ -12,15 +18,35 @@
     background-color: black;
     margin: 0;
     border: none;
+    padding: 0;
 } 
 
-.close {
-    cursor: pointer;
-    float: right;
-  }
+.profile__add-button:hover {
+    opacity: 0.6000000238418579;
+}
+
 
   .button__submit {
-    
+    margin-top: 48px;
+    background-color: black;
+    color: #FFF;
+    padding: 15px 125px 15px 125px;
   }
   
   
+  /* .close {
+    cursor: pointer;
+    float: right;
+  } */
+  
+
+  .close-icon {
+    max-width: 40px;
+    max-height: 40px;
+    display: flex; 
+    justify-content: flex-end;
+  }
+
+  .close-icon:hover {
+    opacity: 0.6000000238418579;
+  }

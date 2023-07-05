@@ -40,3 +40,17 @@
 .content__card-like {
     max-width: 21px;
 }
+
+.content__card-like:hover {
+    opacity: 0.6000000238418579;
+}
+
+.content__card-like:active {
+   
+}
+
+@media (min-width:660px) and (max-width:884px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}

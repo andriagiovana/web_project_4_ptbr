@@ -9,7 +9,6 @@
 
   <body>
     <div class="page">
-      <script src="./scripts/script.js"></script>
       <header class="header">
         <img
           class="header__logo"
@@ -29,33 +28,32 @@
             <div class="profile__info">
               <div class="profile__name">
                 <p class="profile__name_p">Jacques Cousteau</p>
-                <button class="profile__edit-button">
+                <button class=" profile__edit-button" type="submit">
                   <img src="./imagens/edit-button.png" alt="botão de edição" />
                 </button>
                 <div class="popup" id="popup">
+                  <img class="close-icon" src="./imagens/close-Icon.png"/>
                   <form class="popup__container" id="editForm">
                     <h2 class="popup__title">Editar perfil</h2>
                     <fieldset class="popup__container-set">
                       <input
-                        class="popup__container-set-text"
+                        class="popup__container-text"
                         type="text"
                         id="name"
                         name="name"
                         placeholder="Seu nome"
                       />
                       <input
-                        class="popup__container-set-text_p"
+                        class="popup__container-text_p"
                         type="text"
                         id="info"
                         name="info"
-                        placeholder="Digite aqui a sua profissão "
+                        placeholder="A sua profissão "
                       />
                     </fieldset>
-                    <input
+                    <button 
                       class="button__submit"
-                      type="submit"
-                      value="Salvar"
-                    />
+                      type="submit">Salvar</button>
                   </form>
                 </div>
               </div>
@@ -175,5 +173,6 @@
         <h2 class="footer__copyright">© 2021 Around The U.S.</h2>
       </footer>
     </div>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

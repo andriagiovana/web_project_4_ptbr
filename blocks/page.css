@@ -12,3 +12,33 @@
    padding-left: 200px;
    padding-right: 200px;
 }
+
+@media (min-width: 965px) and (max-width:1125px) {
+    .page {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media (min-width:885px) and (max-width: 964px) {
+    .page {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (min-width:728px) and (max-width:884px) {
+    .page {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (min-width:620px) and (max-width:727px) {
+    .page {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* rolagem lateral surgiu quando eu adicionei o min-width:620px;) */

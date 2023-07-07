@@ -45,12 +45,26 @@
     opacity: 0.6000000238418579;
 }
 
-.content__card-like:active {
-   
-}
 
-@media (min-width:660px) and (max-width:884px) {
+
+
+@media (min-width:551px) and (max-width:884px) {
     .content {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media  screen and (max-width:550px) {
+    .content {
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .content__card{
+        max-width: 300px;
+        margin: 0;
     }
 }

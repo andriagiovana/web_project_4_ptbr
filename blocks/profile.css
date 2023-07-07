@@ -3,7 +3,7 @@
     display: flex;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .profile__avatar {
@@ -20,12 +20,14 @@
 .profile__info {
     display: flex;
     flex-direction: column;
-    max-width: 415px;  
+    /* max-width: 415px;   */
+    margin: 0;
 }
 
 .profile__name {
     display: flex;
     column-gap: 18px;
+    width: fit-content;
 }
 
 .profile__name_p {
@@ -33,6 +35,7 @@
     font-weight: 500;
     line-height: 48px;
     margin: 0;
+    padding: 0;
 }
 
 .profile__text {
@@ -43,4 +46,35 @@
     padding-top: 20px;
 }
 
-/*  a partir de 884px eu queria deixar o botão de adicionar embaixo do "explorar" e deixar o botão de edição próximo */
+@media (max-width:884px) {
+   .profile {
+    flex-direction: column;
+   }
+
+   .profile__name_p {
+    font-size: 35px;
+   }
+
+   }
+
+@media  screen and (max-width:550px) {
+    .profile__elements {
+        flex-direction: column;
+        max-width: 320px;
+    }
+
+    .profile__name_p {
+        font-size: 26px;
+    }
+
+    .profile__avatar {
+        align-self: center;
+    }
+
+    .profile__text {
+        font-size: 14px;
+    }
+
+
+
+   }

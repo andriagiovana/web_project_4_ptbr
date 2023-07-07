@@ -34,10 +34,19 @@
     }
 }
 
+
 @media (min-width:620px) and (max-width:727px) {
     .page {
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+@media  screen and (max-width:660px) {
+    .page {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
     }
 }
 

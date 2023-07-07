@@ -9,7 +9,7 @@
 }
 
 .profile__edit-button:hover {
-    opacity: 0.6000000238418579;
+    opacity: 0.6;
 }
 
 .profile__add-button {
@@ -22,7 +22,7 @@
 } 
 
 .profile__add-button:hover {
-    opacity: 0.6000000238418579;
+    opacity: 0.6;
 }
 
 
@@ -33,20 +33,27 @@
     padding: 15px 125px 15px 125px;
   }
   
-  
-  /* .close {
-    cursor: pointer;
-    float: right;
-  } */
-  
-
   .close-icon {
     max-width: 40px;
     max-height: 40px;
-    display: flex; 
-    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 80px;
   }
 
   .close-icon:hover {
-    opacity: 0.6000000238418579;
+    opacity: 0.6;
+  }
+
+  @media (max-width:885px) {
+    .profile__add-button {
+      display: flex;
+      margin-top: 15px;
+    }
+  }
+
+  @media  screen and (max-width:550px) {
+    .profile__add-button {
+      width: 100%;
+    }
   }

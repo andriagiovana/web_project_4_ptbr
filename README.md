@@ -13,4 +13,14 @@
 
 A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
 
+#### Recursos utilizados
+
+* html
+* css
+* JavaScript 
+
+com tais recursos foi-se criada um formulário responsivo. 
+
 Divirta-se com JavaScript!
+
+

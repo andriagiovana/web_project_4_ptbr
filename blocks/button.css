@@ -1,59 +1,65 @@
-
 .profile__edit-button {
-    max-width: 24px;
-    max-height: 24px;
-    margin-top: 16px;
-    border: none;
-    background-color: black;
-    padding: 0;
+  max-width: 24px;
+  max-height: 24px;
+  margin-top: 16px;
+  border: none;
+  background-color: black;
+  padding: 0;
 }
 
 .profile__edit-button:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .profile__add-button {
-    max-width: 150px;
-    max-height: 50px;
-    background-color: black;
-    margin: 0;
-    border: none;
-    padding: 0;
-} 
-
-.profile__add-button:hover {
-    opacity: 0.6;
+  max-width: 150px;
+  max-height: 50px;
+  background-color: black;
+  margin: 0;
+  border: none;
+  padding: 0;
 }
 
+.profile__add-button:hover {
+  opacity: 0.6;
+}
 
-  .button__submit {
-    margin-top: 48px;
-    background-color: black;
-    color: #FFF;
-    padding: 15px 125px 15px 125px;
+.button__submit {
+  margin-top: 48px;
+  background-color: black;
+  color: #fff;
+  padding: 15px 125px 15px 125px;
+}
+
+.close-icon {
+  max-width: 40px;
+  max-height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -35px;
+}
+
+.close-icon:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 885px) {
+  .profile__add-button {
+    display: flex;
+    margin-top: 15px;
   }
-  
+}
+
+@media screen and (max-width: 550px) {
+  .profile__add-button {
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width: 480px) {
   .close-icon {
-    max-width: 40px;
-    max-height: 40px;
-    position: absolute;
-    top: 20px;
-    right: 80px;
+    max-width: 26px;
+    top: -30px;
+    right: -10px;
   }
-
-  .close-icon:hover {
-    opacity: 0.6;
-  }
-
-  @media (max-width:885px) {
-    .profile__add-button {
-      display: flex;
-      margin-top: 15px;
-    }
-  }
-
-  @media  screen and (max-width:550px) {
-    .profile__add-button {
-      width: 100%;
-    }
-  }
+}
